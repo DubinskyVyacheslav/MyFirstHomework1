@@ -2,8 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class FirstHomework {
 
-    String HelpMe="Я не понял немного";
-    char i = 'и';
+    static String HelpMe="Я не понял немного";
+    
 
 
     public static void main(String[] args) {
@@ -14,6 +14,6 @@ public class FirstHomework {
         System.out.println("Возраст: " + Michail.getAge());
         System.out.println("Money: " + Michail.getMoney());
         System.out.println("Ваш id: " + Michail.getId());
-
+        System.out.println(HelpMe);
     }
 }
